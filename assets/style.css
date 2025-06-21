@@ -94,6 +94,19 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
 /* Games Library */
 
 #new-games .card,
@@ -150,6 +163,17 @@ h2 {
 } */
 
 /* Media queries */
+
+/* XS devices (XS smalls, 320px and up) */
+@media screen and (max-width: 320px) {
+    #events table     {
+    font-size: 10px;
+    }
+
+    .student-discount {
+    font-size: 13px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
